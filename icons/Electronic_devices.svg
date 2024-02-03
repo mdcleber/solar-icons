@@ -1,14 +1,12 @@
-<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_4_1691)">
-<path d="M12.1143 1.73685H14.7048C15.0095 1.73685 15.3143 1.9579 15.3143 2.32632V9.10527C15.3143 9.4 15.0857 9.69474 14.7048 9.69474H8.91428" stroke="#3D3D3D" stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4.26667 9.69472H1.29524C0.990477 9.69472 0.685715 9.47367 0.685715 9.10525V2.25262C0.685715 1.95788 0.914286 1.66315 1.29524 1.66315H9.21905" stroke="#3D3D3D" stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4.34286 14.1895V7.18948C4.34286 7.04211 4.49524 6.89474 4.64762 6.89474H8.53333C8.68571 6.89474 8.8381 7.04211 8.8381 7.18948V14.1895C8.8381 14.3369 8.68571 14.4842 8.53333 14.4842H4.64762C4.49524 14.5579 4.34286 14.4105 4.34286 14.1895Z" stroke="#3D3D3D" stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13.7143 6.1579C13.8405 6.1579 13.9429 6.05893 13.9429 5.93684C13.9429 5.81476 13.8405 5.71579 13.7143 5.71579C13.5881 5.71579 13.4857 5.81476 13.4857 5.93684C13.4857 6.05893 13.5881 6.1579 13.7143 6.1579Z" stroke="#3D3D3D" stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6.62857 13.6C6.71273 13.6 6.78095 13.534 6.78095 13.4526C6.78095 13.3712 6.71273 13.3053 6.62857 13.3053C6.54441 13.3053 6.47619 13.3712 6.47619 13.4526C6.47619 13.534 6.54441 13.6 6.62857 13.6Z" stroke="#3D3D3D" stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0_4_1691">
-<rect width="16" height="14" fill="white" transform="translate(0 1)"/>
-</clipPath>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="si si-Electronic_devices" viewBox="0 0 16 16">
+  <g stroke="#3D3D3D" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".75" clip-path="url(#a)">
+    <path d="M12.114 1.737h2.59c.305 0 .61.22.61.59v6.778a.59.59 0 0 1-.61.59h-5.79m-4.647 0H1.295c-.305 0-.61-.221-.61-.59V2.253a.59.59 0 0 1 .61-.59H9.22"/>
+    <path d="M4.343 14.19v-7c0-.148.152-.295.305-.295h3.885c.153 0 .305.147.305.294v7c0 .148-.152.295-.305.295H4.648c-.153.074-.305-.073-.305-.294m9.371-8.032a.225.225 0 0 0 .229-.221.225.225 0 0 0-.229-.221.225.225 0 0 0-.228.22c0 .123.102.222.228.222"/>
+    <path d="M6.629 13.6a.15.15 0 0 0 .152-.147.15.15 0 0 0-.152-.148.15.15 0 0 0-.153.148.15.15 0 0 0 .153.147"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <path d="M0 1h16v14H0z"/>
+    </clipPath>
+  </defs>
 </svg>

@@ -3,11 +3,11 @@ $bootstrap-icons-font: "bootstrap-icons";
 @font-face {
   font-display: block;
   font-family: $bootstrap-icons-font;
-  src: url("./bootstrap-icons.woff2?4c3e1ca718a3c964dda670e7636c1be8") format("woff2"),
-url("./bootstrap-icons.woff?4c3e1ca718a3c964dda670e7636c1be8") format("woff");
+  src: url("./bootstrap-icons.woff2?25f0fa5b06794368ee490782ae33bf13") format("woff2"),
+url("./bootstrap-icons.woff?25f0fa5b06794368ee490782ae33bf13") format("woff");
 }
 
-.bi::before {
+.si::before {
   font-family: bootstrap-icons !important;
   font-style: normal;
   font-weight: normal !important;
@@ -84,192 +84,192 @@ $bootstrap-icons-map: (
   "Youtubeicons": "\f13f",
 );
 
-.bi.bi-Agreement_handshakeicons::before {
+.si.si-Agreement_handshakeicons::before {
   content: map-get($bootstrap-icons-map, "Agreement_handshakeicons");
 }
-.bi.bi-Biomassicons::before {
+.si.si-Biomassicons::before {
   content: map-get($bootstrap-icons-map, "Biomassicons");
 }
-.bi.bi-Calendar_whiteicons::before {
+.si.si-Calendar_whiteicons::before {
   content: map-get($bootstrap-icons-map, "Calendar_whiteicons");
 }
-.bi.bi-Calendaricons::before {
+.si.si-Calendaricons::before {
   content: map-get($bootstrap-icons-map, "Calendaricons");
 }
-.bi.bi-Checkmarkicons::before {
+.si.si-Checkmarkicons::before {
   content: map-get($bootstrap-icons-map, "Checkmarkicons");
 }
-.bi.bi-Cloudicons::before {
+.si.si-Cloudicons::before {
   content: map-get($bootstrap-icons-map, "Cloudicons");
 }
-.bi.bi-Communications_infraicons::before {
+.si.si-Communications_infraicons::before {
   content: map-get($bootstrap-icons-map, "Communications_infraicons");
 }
-.bi.bi-Data_analysis_statusicons::before {
+.si.si-Data_analysis_statusicons::before {
   content: map-get($bootstrap-icons-map, "Data_analysis_statusicons");
 }
-.bi.bi-Document-Contracticons::before {
+.si.si-Document-Contracticons::before {
   content: map-get($bootstrap-icons-map, "Document-Contracticons");
 }
-.bi.bi-Down-righticons::before {
+.si.si-Down-righticons::before {
   content: map-get($bootstrap-icons-map, "Down-righticons");
 }
-.bi.bi-Downloadicons::before {
+.si.si-Downloadicons::before {
   content: map-get($bootstrap-icons-map, "Downloadicons");
 }
-.bi.bi-Earthicons::before {
+.si.si-Earthicons::before {
   content: map-get($bootstrap-icons-map, "Earthicons");
 }
-.bi.bi-Electrical_Power::before {
+.si.si-Electrical_Power::before {
   content: map-get($bootstrap-icons-map, "Electrical_Power");
 }
-.bi.bi-Electronic_devices::before {
+.si.si-Electronic_devices::before {
   content: map-get($bootstrap-icons-map, "Electronic_devices");
 }
-.bi.bi-Email_white::before {
+.si.si-Email_white::before {
   content: map-get($bootstrap-icons-map, "Email_white");
 }
-.bi.bi-Emailicons::before {
+.si.si-Emailicons::before {
   content: map-get($bootstrap-icons-map, "Emailicons");
 }
-.bi.bi-Gasicons::before {
+.si.si-Gasicons::before {
   content: map-get($bootstrap-icons-map, "Gasicons");
 }
-.bi.bi-Grid_Biogas::before {
+.si.si-Grid_Biogas::before {
   content: map-get($bootstrap-icons-map, "Grid_Biogas");
 }
-.bi.bi-Ground_area::before {
+.si.si-Ground_area::before {
   content: map-get($bootstrap-icons-map, "Ground_area");
 }
-.bi.bi-Home_Electricity::before {
+.si.si-Home_Electricity::before {
   content: map-get($bootstrap-icons-map, "Home_Electricity");
 }
-.bi.bi-Hydrogenicons::before {
+.si.si-Hydrogenicons::before {
   content: map-get($bootstrap-icons-map, "Hydrogenicons");
 }
-.bi.bi-Infopointicons::before {
+.si.si-Infopointicons::before {
   content: map-get($bootstrap-icons-map, "Infopointicons");
 }
-.bi.bi-Instagramicons::before {
+.si.si-Instagramicons::before {
   content: map-get($bootstrap-icons-map, "Instagramicons");
 }
-.bi.bi-Inteviewicons::before {
+.si.si-Inteviewicons::before {
   content: map-get($bootstrap-icons-map, "Inteviewicons");
 }
-.bi.bi-LED_Bulb::before {
+.si.si-LED_Bulb::before {
   content: map-get($bootstrap-icons-map, "LED_Bulb");
 }
-.bi.bi-Lightbulbicons::before {
+.si.si-Lightbulbicons::before {
   content: map-get($bootstrap-icons-map, "Lightbulbicons");
 }
-.bi.bi-Mailicons::before {
+.si.si-Mailicons::before {
   content: map-get($bootstrap-icons-map, "Mailicons");
 }
-.bi.bi-Neutral_line::before {
+.si.si-Neutral_line::before {
   content: map-get($bootstrap-icons-map, "Neutral_line");
 }
-.bi.bi-No_X::before {
+.si.si-No_X::before {
   content: map-get($bootstrap-icons-map, "No_X");
 }
-.bi.bi-Nuclear-akwicons::before {
+.si.si-Nuclear-akwicons::before {
   content: map-get($bootstrap-icons-map, "Nuclear-akwicons");
 }
-.bi.bi-PV_Panel_Sun::before {
+.si.si-PV_Panel_Sun::before {
   content: map-get($bootstrap-icons-map, "PV_Panel_Sun");
 }
-.bi.bi-renewable-energy-seal::before {
+.si.si-renewable-energy-seal::before {
   content: map-get($bootstrap-icons-map, "renewable-energy-seal");
 }
-.bi.bi-Renewablesicons::before {
+.si.si-Renewablesicons::before {
   content: map-get($bootstrap-icons-map, "Renewablesicons");
 }
-.bi.bi-Schweizicons::before {
+.si.si-Schweizicons::before {
   content: map-get($bootstrap-icons-map, "Schweizicons");
 }
-.bi.bi-Screenicons::before {
+.si.si-Screenicons::before {
   content: map-get($bootstrap-icons-map, "Screenicons");
 }
-.bi.bi-Search_white::before {
+.si.si-Search_white::before {
   content: map-get($bootstrap-icons-map, "Search_white");
 }
-.bi.bi-Search-Nav-whiteicons::before {
+.si.si-Search-Nav-whiteicons::before {
   content: map-get($bootstrap-icons-map, "Search-Nav-whiteicons");
 }
-.bi.bi-Search-Navicons::before {
+.si.si-Search-Navicons::before {
   content: map-get($bootstrap-icons-map, "Search-Navicons");
 }
-.bi.bi-Searchicons::before {
+.si.si-Searchicons::before {
   content: map-get($bootstrap-icons-map, "Searchicons");
 }
-.bi.bi-Settingsicons::before {
+.si.si-Settingsicons::before {
   content: map-get($bootstrap-icons-map, "Settingsicons");
 }
-.bi.bi-Shareicons::before {
+.si.si-Shareicons::before {
   content: map-get($bootstrap-icons-map, "Shareicons");
 }
-.bi.bi-Solar2-icons::before {
+.si.si-Solar2-icons::before {
   content: map-get($bootstrap-icons-map, "Solar2-icons");
 }
-.bi.bi-Spainicons::before {
+.si.si-Spainicons::before {
   content: map-get($bootstrap-icons-map, "Spainicons");
 }
-.bi.bi-Spotifyicons::before {
+.si.si-Spotifyicons::before {
   content: map-get($bootstrap-icons-map, "Spotifyicons");
 }
-.bi.bi-Staricons::before {
+.si.si-Staricons::before {
   content: map-get($bootstrap-icons-map, "Staricons");
 }
-.bi.bi-Sun_stroke_icons::before {
+.si.si-Sun_stroke_icons::before {
   content: map-get($bootstrap-icons-map, "Sun_stroke_icons");
 }
-.bi.bi-Targeticons::before {
+.si.si-Targeticons::before {
   content: map-get($bootstrap-icons-map, "Targeticons");
 }
-.bi.bi-TikTok::before {
+.si.si-TikTok::before {
   content: map-get($bootstrap-icons-map, "TikTok");
 }
-.bi.bi-Time_stroke::before {
+.si.si-Time_stroke::before {
   content: map-get($bootstrap-icons-map, "Time_stroke");
 }
-.bi.bi-Timei::before {
+.si.si-Timei::before {
   content: map-get($bootstrap-icons-map, "Timei");
 }
-.bi.bi-Transformator::before {
+.si.si-Transformator::before {
   content: map-get($bootstrap-icons-map, "Transformator");
 }
-.bi.bi-Transmissionicons::before {
+.si.si-Transmissionicons::before {
   content: map-get($bootstrap-icons-map, "Transmissionicons");
 }
-.bi.bi-Twittericons::before {
+.si.si-Twittericons::before {
   content: map-get($bootstrap-icons-map, "Twittericons");
 }
-.bi.bi-User_2_whiteicons::before {
+.si.si-User_2_whiteicons::before {
   content: map-get($bootstrap-icons-map, "User_2_whiteicons");
 }
-.bi.bi-User_stroke::before {
+.si.si-User_stroke::before {
   content: map-get($bootstrap-icons-map, "User_stroke");
 }
-.bi.bi-User-Navicons::before {
+.si.si-User-Navicons::before {
   content: map-get($bootstrap-icons-map, "User-Navicons");
 }
-.bi.bi-Usericons::before {
+.si.si-Usericons::before {
   content: map-get($bootstrap-icons-map, "Usericons");
 }
-.bi.bi-Wifi_communication::before {
+.si.si-Wifi_communication::before {
   content: map-get($bootstrap-icons-map, "Wifi_communication");
 }
-.bi.bi-Wind_stroke::before {
+.si.si-Wind_stroke::before {
   content: map-get($bootstrap-icons-map, "Wind_stroke");
 }
-.bi.bi-Wind_Sun::before {
+.si.si-Wind_Sun::before {
   content: map-get($bootstrap-icons-map, "Wind_Sun");
 }
-.bi.bi-Wind::before {
+.si.si-Wind::before {
   content: map-get($bootstrap-icons-map, "Wind");
 }
-.bi.bi-Yes_checkicons::before {
+.si.si-Yes_checkicons::before {
   content: map-get($bootstrap-icons-map, "Yes_checkicons");
 }
-.bi.bi-Youtubeicons::before {
+.si.si-Youtubeicons::before {
   content: map-get($bootstrap-icons-map, "Youtubeicons");
 }

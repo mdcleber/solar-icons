@@ -6,8 +6,8 @@ module.exports = {
   fontTypes: ['woff2', 'woff'],
   assetTypes: ['css', 'scss', 'json', 'html'],
   name: 'bootstrap-icons',
-  prefix: 'bi',
-  selector: '.bi',
+  prefix: 'si',
+  selector: '.si',
   fontsUrl: '',
   formatOptions: {
     json: {
