@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  inputDir: './icons',
+  inputDir: './dist',
   outputDir: './font',
   fontTypes: ['woff2', 'woff'],
   assetTypes: ['css', 'scss', 'json', 'html'],
