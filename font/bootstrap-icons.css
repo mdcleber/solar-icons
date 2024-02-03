@@ -1,0 +1,91 @@
+/*!
+ * Bootstrap Icons v1.11.3 (https://icons.getbootstrap.com/)
+ * Copyright 2019-2024 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/icons/blob/main/LICENSE)
+ */
+
+@font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src: url("./bootstrap-icons.woff2?4c3e1ca718a3c964dda670e7636c1be8") format("woff2"),
+url("./bootstrap-icons.woff?4c3e1ca718a3c964dda670e7636c1be8") format("woff");
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-Agreement_handshakeicons::before { content: "\f101"; }
+.bi-Biomassicons::before { content: "\f102"; }
+.bi-Calendar_whiteicons::before { content: "\f103"; }
+.bi-Calendaricons::before { content: "\f104"; }
+.bi-Checkmarkicons::before { content: "\f105"; }
+.bi-Cloudicons::before { content: "\f106"; }
+.bi-Communications_infraicons::before { content: "\f107"; }
+.bi-Data_analysis_statusicons::before { content: "\f108"; }
+.bi-Document-Contracticons::before { content: "\f109"; }
+.bi-Down-righticons::before { content: "\f10a"; }
+.bi-Downloadicons::before { content: "\f10b"; }
+.bi-Earthicons::before { content: "\f10c"; }
+.bi-Electrical_Power::before { content: "\f10d"; }
+.bi-Electronic_devices::before { content: "\f10e"; }
+.bi-Email_white::before { content: "\f10f"; }
+.bi-Emailicons::before { content: "\f110"; }
+.bi-Gasicons::before { content: "\f111"; }
+.bi-Grid_Biogas::before { content: "\f112"; }
+.bi-Ground_area::before { content: "\f113"; }
+.bi-Home_Electricity::before { content: "\f114"; }
+.bi-Hydrogenicons::before { content: "\f115"; }
+.bi-Infopointicons::before { content: "\f116"; }
+.bi-Instagramicons::before { content: "\f117"; }
+.bi-Inteviewicons::before { content: "\f118"; }
+.bi-LED_Bulb::before { content: "\f119"; }
+.bi-Lightbulbicons::before { content: "\f11a"; }
+.bi-Mailicons::before { content: "\f11b"; }
+.bi-Neutral_line::before { content: "\f11c"; }
+.bi-No_X::before { content: "\f11d"; }
+.bi-Nuclear-akwicons::before { content: "\f11e"; }
+.bi-PV_Panel_Sun::before { content: "\f11f"; }
+.bi-renewable-energy-seal::before { content: "\f120"; }
+.bi-Renewablesicons::before { content: "\f121"; }
+.bi-Schweizicons::before { content: "\f122"; }
+.bi-Screenicons::before { content: "\f123"; }
+.bi-Search_white::before { content: "\f124"; }
+.bi-Search-Nav-whiteicons::before { content: "\f125"; }
+.bi-Search-Navicons::before { content: "\f126"; }
+.bi-Searchicons::before { content: "\f127"; }
+.bi-Settingsicons::before { content: "\f128"; }
+.bi-Shareicons::before { content: "\f129"; }
+.bi-Solar2-icons::before { content: "\f12a"; }
+.bi-Spainicons::before { content: "\f12b"; }
+.bi-Spotifyicons::before { content: "\f12c"; }
+.bi-Staricons::before { content: "\f12d"; }
+.bi-Sun_stroke_icons::before { content: "\f12e"; }
+.bi-Targeticons::before { content: "\f12f"; }
+.bi-TikTok::before { content: "\f130"; }
+.bi-Time_stroke::before { content: "\f131"; }
+.bi-Timei::before { content: "\f132"; }
+.bi-Transformator::before { content: "\f133"; }
+.bi-Transmissionicons::before { content: "\f134"; }
+.bi-Twittericons::before { content: "\f135"; }
+.bi-User_2_whiteicons::before { content: "\f136"; }
+.bi-User_stroke::before { content: "\f137"; }
+.bi-User-Navicons::before { content: "\f138"; }
+.bi-Usericons::before { content: "\f139"; }
+.bi-Wifi_communication::before { content: "\f13a"; }
+.bi-Wind_stroke::before { content: "\f13b"; }
+.bi-Wind_Sun::before { content: "\f13c"; }
+.bi-Wind::before { content: "\f13d"; }
+.bi-Yes_checkicons::before { content: "\f13e"; }
+.bi-Youtubeicons::before { content: "\f13f"; }

@@ -1,0 +1,275 @@
+$bootstrap-icons-font: "bootstrap-icons";
+
+@font-face {
+  font-display: block;
+  font-family: $bootstrap-icons-font;
+  src: url("./bootstrap-icons.woff2?4c3e1ca718a3c964dda670e7636c1be8") format("woff2"),
+url("./bootstrap-icons.woff?4c3e1ca718a3c964dda670e7636c1be8") format("woff");
+}
+
+.bi::before {
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$bootstrap-icons-map: (
+  "Agreement_handshakeicons": "\f101",
+  "Biomassicons": "\f102",
+  "Calendar_whiteicons": "\f103",
+  "Calendaricons": "\f104",
+  "Checkmarkicons": "\f105",
+  "Cloudicons": "\f106",
+  "Communications_infraicons": "\f107",
+  "Data_analysis_statusicons": "\f108",
+  "Document-Contracticons": "\f109",
+  "Down-righticons": "\f10a",
+  "Downloadicons": "\f10b",
+  "Earthicons": "\f10c",
+  "Electrical_Power": "\f10d",
+  "Electronic_devices": "\f10e",
+  "Email_white": "\f10f",
+  "Emailicons": "\f110",
+  "Gasicons": "\f111",
+  "Grid_Biogas": "\f112",
+  "Ground_area": "\f113",
+  "Home_Electricity": "\f114",
+  "Hydrogenicons": "\f115",
+  "Infopointicons": "\f116",
+  "Instagramicons": "\f117",
+  "Inteviewicons": "\f118",
+  "LED_Bulb": "\f119",
+  "Lightbulbicons": "\f11a",
+  "Mailicons": "\f11b",
+  "Neutral_line": "\f11c",
+  "No_X": "\f11d",
+  "Nuclear-akwicons": "\f11e",
+  "PV_Panel_Sun": "\f11f",
+  "renewable-energy-seal": "\f120",
+  "Renewablesicons": "\f121",
+  "Schweizicons": "\f122",
+  "Screenicons": "\f123",
+  "Search_white": "\f124",
+  "Search-Nav-whiteicons": "\f125",
+  "Search-Navicons": "\f126",
+  "Searchicons": "\f127",
+  "Settingsicons": "\f128",
+  "Shareicons": "\f129",
+  "Solar2-icons": "\f12a",
+  "Spainicons": "\f12b",
+  "Spotifyicons": "\f12c",
+  "Staricons": "\f12d",
+  "Sun_stroke_icons": "\f12e",
+  "Targeticons": "\f12f",
+  "TikTok": "\f130",
+  "Time_stroke": "\f131",
+  "Timei": "\f132",
+  "Transformator": "\f133",
+  "Transmissionicons": "\f134",
+  "Twittericons": "\f135",
+  "User_2_whiteicons": "\f136",
+  "User_stroke": "\f137",
+  "User-Navicons": "\f138",
+  "Usericons": "\f139",
+  "Wifi_communication": "\f13a",
+  "Wind_stroke": "\f13b",
+  "Wind_Sun": "\f13c",
+  "Wind": "\f13d",
+  "Yes_checkicons": "\f13e",
+  "Youtubeicons": "\f13f",
+);
+
+.bi.bi-Agreement_handshakeicons::before {
+  content: map-get($bootstrap-icons-map, "Agreement_handshakeicons");
+}
+.bi.bi-Biomassicons::before {
+  content: map-get($bootstrap-icons-map, "Biomassicons");
+}
+.bi.bi-Calendar_whiteicons::before {
+  content: map-get($bootstrap-icons-map, "Calendar_whiteicons");
+}
+.bi.bi-Calendaricons::before {
+  content: map-get($bootstrap-icons-map, "Calendaricons");
+}
+.bi.bi-Checkmarkicons::before {
+  content: map-get($bootstrap-icons-map, "Checkmarkicons");
+}
+.bi.bi-Cloudicons::before {
+  content: map-get($bootstrap-icons-map, "Cloudicons");
+}
+.bi.bi-Communications_infraicons::before {
+  content: map-get($bootstrap-icons-map, "Communications_infraicons");
+}
+.bi.bi-Data_analysis_statusicons::before {
+  content: map-get($bootstrap-icons-map, "Data_analysis_statusicons");
+}
+.bi.bi-Document-Contracticons::before {
+  content: map-get($bootstrap-icons-map, "Document-Contracticons");
+}
+.bi.bi-Down-righticons::before {
+  content: map-get($bootstrap-icons-map, "Down-righticons");
+}
+.bi.bi-Downloadicons::before {
+  content: map-get($bootstrap-icons-map, "Downloadicons");
+}
+.bi.bi-Earthicons::before {
+  content: map-get($bootstrap-icons-map, "Earthicons");
+}
+.bi.bi-Electrical_Power::before {
+  content: map-get($bootstrap-icons-map, "Electrical_Power");
+}
+.bi.bi-Electronic_devices::before {
+  content: map-get($bootstrap-icons-map, "Electronic_devices");
+}
+.bi.bi-Email_white::before {
+  content: map-get($bootstrap-icons-map, "Email_white");
+}
+.bi.bi-Emailicons::before {
+  content: map-get($bootstrap-icons-map, "Emailicons");
+}
+.bi.bi-Gasicons::before {
+  content: map-get($bootstrap-icons-map, "Gasicons");
+}
+.bi.bi-Grid_Biogas::before {
+  content: map-get($bootstrap-icons-map, "Grid_Biogas");
+}
+.bi.bi-Ground_area::before {
+  content: map-get($bootstrap-icons-map, "Ground_area");
+}
+.bi.bi-Home_Electricity::before {
+  content: map-get($bootstrap-icons-map, "Home_Electricity");
+}
+.bi.bi-Hydrogenicons::before {
+  content: map-get($bootstrap-icons-map, "Hydrogenicons");
+}
+.bi.bi-Infopointicons::before {
+  content: map-get($bootstrap-icons-map, "Infopointicons");
+}
+.bi.bi-Instagramicons::before {
+  content: map-get($bootstrap-icons-map, "Instagramicons");
+}
+.bi.bi-Inteviewicons::before {
+  content: map-get($bootstrap-icons-map, "Inteviewicons");
+}
+.bi.bi-LED_Bulb::before {
+  content: map-get($bootstrap-icons-map, "LED_Bulb");
+}
+.bi.bi-Lightbulbicons::before {
+  content: map-get($bootstrap-icons-map, "Lightbulbicons");
+}
+.bi.bi-Mailicons::before {
+  content: map-get($bootstrap-icons-map, "Mailicons");
+}
+.bi.bi-Neutral_line::before {
+  content: map-get($bootstrap-icons-map, "Neutral_line");
+}
+.bi.bi-No_X::before {
+  content: map-get($bootstrap-icons-map, "No_X");
+}
+.bi.bi-Nuclear-akwicons::before {
+  content: map-get($bootstrap-icons-map, "Nuclear-akwicons");
+}
+.bi.bi-PV_Panel_Sun::before {
+  content: map-get($bootstrap-icons-map, "PV_Panel_Sun");
+}
+.bi.bi-renewable-energy-seal::before {
+  content: map-get($bootstrap-icons-map, "renewable-energy-seal");
+}
+.bi.bi-Renewablesicons::before {
+  content: map-get($bootstrap-icons-map, "Renewablesicons");
+}
+.bi.bi-Schweizicons::before {
+  content: map-get($bootstrap-icons-map, "Schweizicons");
+}
+.bi.bi-Screenicons::before {
+  content: map-get($bootstrap-icons-map, "Screenicons");
+}
+.bi.bi-Search_white::before {
+  content: map-get($bootstrap-icons-map, "Search_white");
+}
+.bi.bi-Search-Nav-whiteicons::before {
+  content: map-get($bootstrap-icons-map, "Search-Nav-whiteicons");
+}
+.bi.bi-Search-Navicons::before {
+  content: map-get($bootstrap-icons-map, "Search-Navicons");
+}
+.bi.bi-Searchicons::before {
+  content: map-get($bootstrap-icons-map, "Searchicons");
+}
+.bi.bi-Settingsicons::before {
+  content: map-get($bootstrap-icons-map, "Settingsicons");
+}
+.bi.bi-Shareicons::before {
+  content: map-get($bootstrap-icons-map, "Shareicons");
+}
+.bi.bi-Solar2-icons::before {
+  content: map-get($bootstrap-icons-map, "Solar2-icons");
+}
+.bi.bi-Spainicons::before {
+  content: map-get($bootstrap-icons-map, "Spainicons");
+}
+.bi.bi-Spotifyicons::before {
+  content: map-get($bootstrap-icons-map, "Spotifyicons");
+}
+.bi.bi-Staricons::before {
+  content: map-get($bootstrap-icons-map, "Staricons");
+}
+.bi.bi-Sun_stroke_icons::before {
+  content: map-get($bootstrap-icons-map, "Sun_stroke_icons");
+}
+.bi.bi-Targeticons::before {
+  content: map-get($bootstrap-icons-map, "Targeticons");
+}
+.bi.bi-TikTok::before {
+  content: map-get($bootstrap-icons-map, "TikTok");
+}
+.bi.bi-Time_stroke::before {
+  content: map-get($bootstrap-icons-map, "Time_stroke");
+}
+.bi.bi-Timei::before {
+  content: map-get($bootstrap-icons-map, "Timei");
+}
+.bi.bi-Transformator::before {
+  content: map-get($bootstrap-icons-map, "Transformator");
+}
+.bi.bi-Transmissionicons::before {
+  content: map-get($bootstrap-icons-map, "Transmissionicons");
+}
+.bi.bi-Twittericons::before {
+  content: map-get($bootstrap-icons-map, "Twittericons");
+}
+.bi.bi-User_2_whiteicons::before {
+  content: map-get($bootstrap-icons-map, "User_2_whiteicons");
+}
+.bi.bi-User_stroke::before {
+  content: map-get($bootstrap-icons-map, "User_stroke");
+}
+.bi.bi-User-Navicons::before {
+  content: map-get($bootstrap-icons-map, "User-Navicons");
+}
+.bi.bi-Usericons::before {
+  content: map-get($bootstrap-icons-map, "Usericons");
+}
+.bi.bi-Wifi_communication::before {
+  content: map-get($bootstrap-icons-map, "Wifi_communication");
+}
+.bi.bi-Wind_stroke::before {
+  content: map-get($bootstrap-icons-map, "Wind_stroke");
+}
+.bi.bi-Wind_Sun::before {
+  content: map-get($bootstrap-icons-map, "Wind_Sun");
+}
+.bi.bi-Wind::before {
+  content: map-get($bootstrap-icons-map, "Wind");
+}
+.bi.bi-Yes_checkicons::before {
+  content: map-get($bootstrap-icons-map, "Yes_checkicons");
+}
+.bi.bi-Youtubeicons::before {
+  content: map-get($bootstrap-icons-map, "Youtubeicons");
+}
