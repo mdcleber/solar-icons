@@ -3,8 +3,8 @@ $bootstrap-icons-font: "bootstrap-icons";
 @font-face {
   font-display: block;
   font-family: $bootstrap-icons-font;
-  src: url("./bootstrap-icons.woff2?76155d21247469946f322ffe0f10d101") format("woff2"),
-url("./bootstrap-icons.woff?76155d21247469946f322ffe0f10d101") format("woff");
+  src: url("./bootstrap-icons.woff2?bfcbce5df547cea2265e82d27aedc760") format("woff2"),
+url("./bootstrap-icons.woff?bfcbce5df547cea2265e82d27aedc760") format("woff");
 }
 
 .si::before {
@@ -19,257 +19,393 @@ url("./bootstrap-icons.woff?76155d21247469946f322ffe0f10d101") format("woff");
 }
 
 $bootstrap-icons-map: (
-  "Agreement_handshakeicons": "\f101",
-  "Biomassicons": "\f102",
-  "Calendar_whiteicons": "\f103",
-  "Calendaricons": "\f104",
-  "Checkmarkicons": "\f105",
-  "Cloudicons": "\f106",
-  "Communications_infraicons": "\f107",
-  "Data_analysis_statusicons": "\f108",
-  "Document-Contracticons": "\f109",
-  "Down-righticons": "\f10a",
-  "Downloadicons": "\f10b",
-  "Earthicons": "\f10c",
-  "Electrical_Power": "\f10d",
-  "Electronic_devices": "\f10e",
-  "Email_white": "\f10f",
-  "Emailicons": "\f110",
-  "Gasicons": "\f111",
-  "Grid_Biogas": "\f112",
-  "Ground_area": "\f113",
-  "Home_Electricity": "\f114",
-  "Hydrogenicons": "\f115",
-  "Infopointicons": "\f116",
-  "Instagramicons": "\f117",
-  "Inteviewicons": "\f118",
-  "LED_Bulb": "\f119",
-  "Lightbulbicons": "\f11a",
-  "Mailicons": "\f11b",
-  "Neutral_line": "\f11c",
-  "No_X": "\f11d",
-  "Nuclear-akwicons": "\f11e",
-  "PV_Panel_Sun": "\f11f",
-  "renewable-energy-seal": "\f120",
-  "Renewablesicons": "\f121",
-  "Schweizicons": "\f122",
-  "Screenicons": "\f123",
-  "Search_white": "\f124",
-  "Search-Nav-whiteicons": "\f125",
-  "Search-Navicons": "\f126",
-  "Searchicons": "\f127",
-  "Settingsicons": "\f128",
-  "Shareicons": "\f129",
-  "Solar2-icons": "\f12a",
-  "Spainicons": "\f12b",
-  "Spotifyicons": "\f12c",
-  "Staricons": "\f12d",
-  "Sun_stroke_icons": "\f12e",
-  "Targeticons": "\f12f",
-  "TikTok": "\f130",
-  "Time_stroke": "\f131",
-  "Timei": "\f132",
-  "Transformator": "\f133",
-  "Transmissionicons": "\f134",
-  "Twittericons": "\f135",
-  "User_2_whiteicons": "\f136",
-  "User_stroke": "\f137",
-  "User-Navicons": "\f138",
-  "Usericons": "\f139",
-  "Wifi_communication": "\f13a",
-  "Wind_stroke": "\f13b",
-  "Wind_Sun": "\f13c",
-  "Wind": "\f13d",
-  "Yes_checkicons": "\f13e",
-  "Youtubeicons": "\f13f",
+  "agreement_handshake_": "\f101",
+  "arrow_down": "\f102",
+  "arrow_left": "\f103",
+  "arrow_right": "\f104",
+  "arrow_up": "\f105",
+  "biomass_": "\f106",
+  "calendar_": "\f107",
+  "calendar_white_": "\f108",
+  "caret_arrow_down": "\f109",
+  "caret_arrow_left": "\f10a",
+  "caret_arrow_right": "\f10b",
+  "caret_arrow_stroke_down": "\f10c",
+  "caret_arrow_stroke_left": "\f10d",
+  "caret_arrow_stroke_right": "\f10e",
+  "caret_arrow_stroke_up": "\f10f",
+  "caret_arrow_up": "\f110",
+  "check_roudend": "\f111",
+  "check_straight": "\f112",
+  "checkmark_": "\f113",
+  "chevron_arrow_down": "\f114",
+  "chevron_arrow_left": "\f115",
+  "chevron_arrow_right": "\f116",
+  "chevron_arrow_roudend_up": "\f117",
+  "chevron_arrow_rounded_down": "\f118",
+  "chevron_arrow_rounded_left": "\f119",
+  "chevron_arrow_rounded_right": "\f11a",
+  "chevron_arrow_sharp_down": "\f11b",
+  "chevron_arrow_sharp_left": "\f11c",
+  "chevron_arrow_sharp_right": "\f11d",
+  "chevron_arrow_sharp_up": "\f11e",
+  "chevron_arrow_up": "\f11f",
+  "clear_circle_2": "\f120",
+  "clear_circle": "\f121",
+  "clear": "\f122",
+  "close_x_": "\f123",
+  "cloud_": "\f124",
+  "communications_infra_": "\f125",
+  "data_analysis_status_": "\f126",
+  "document_contract_": "\f127",
+  "down_right_": "\f128",
+  "download_": "\f129",
+  "earth_": "\f12a",
+  "electrical_power_": "\f12b",
+  "electronic_devices_": "\f12c",
+  "email_": "\f12d",
+  "email_white_": "\f12e",
+  "gas_": "\f12f",
+  "grid_biogas_": "\f130",
+  "ground_area_": "\f131",
+  "home_electricity_": "\f132",
+  "hydrogen_": "\f133",
+  "infopoint_": "\f134",
+  "instagram_": "\f135",
+  "inteview_": "\f136",
+  "led_bulb_": "\f137",
+  "lightbulb_": "\f138",
+  "long_arrow_down": "\f139",
+  "long_arrow_left": "\f13a",
+  "long_arrow_right": "\f13b",
+  "long_arrow_up": "\f13c",
+  "mail_": "\f13d",
+  "neutral_line_": "\f13e",
+  "no_x_": "\f13f",
+  "nuclear_akw_": "\f140",
+  "pv_panel_sun_": "\f141",
+  "renewable_energy_seal_": "\f142",
+  "renewables_": "\f143",
+  "schweiz_": "\f144",
+  "screen_": "\f145",
+  "search_": "\f146",
+  "search_nav_": "\f147",
+  "search_nav_white_": "\f148",
+  "search_white_": "\f149",
+  "settings_": "\f14a",
+  "share_": "\f14b",
+  "solar_2_": "\f14c",
+  "spain_": "\f14d",
+  "spotify_": "\f14e",
+  "star_": "\f14f",
+  "sun_stroke__": "\f150",
+  "target_": "\f151",
+  "tiktok_": "\f152",
+  "time_": "\f153",
+  "time_stroke__": "\f154",
+  "transformator_": "\f155",
+  "transmission_": "\f156",
+  "twitter_": "\f157",
+  "user_": "\f158",
+  "user_2_white_": "\f159",
+  "user_nav_": "\f15a",
+  "user_stroke__": "\f15b",
+  "wifi_communication_": "\f15c",
+  "wind_": "\f15d",
+  "wind_stroke__": "\f15e",
+  "wind_sun_": "\f15f",
+  "yes_check_": "\f160",
+  "youtube_": "\f161",
 );
 
-.si.si-Agreement_handshakeicons::before {
-  content: map-get($bootstrap-icons-map, "Agreement_handshakeicons");
+.si.si-agreement_handshake_::before {
+  content: map-get($bootstrap-icons-map, "agreement_handshake_");
 }
-.si.si-Biomassicons::before {
-  content: map-get($bootstrap-icons-map, "Biomassicons");
+.si.si-arrow_down::before {
+  content: map-get($bootstrap-icons-map, "arrow_down");
 }
-.si.si-Calendar_whiteicons::before {
-  content: map-get($bootstrap-icons-map, "Calendar_whiteicons");
+.si.si-arrow_left::before {
+  content: map-get($bootstrap-icons-map, "arrow_left");
 }
-.si.si-Calendaricons::before {
-  content: map-get($bootstrap-icons-map, "Calendaricons");
+.si.si-arrow_right::before {
+  content: map-get($bootstrap-icons-map, "arrow_right");
 }
-.si.si-Checkmarkicons::before {
-  content: map-get($bootstrap-icons-map, "Checkmarkicons");
+.si.si-arrow_up::before {
+  content: map-get($bootstrap-icons-map, "arrow_up");
 }
-.si.si-Cloudicons::before {
-  content: map-get($bootstrap-icons-map, "Cloudicons");
+.si.si-biomass_::before {
+  content: map-get($bootstrap-icons-map, "biomass_");
 }
-.si.si-Communications_infraicons::before {
-  content: map-get($bootstrap-icons-map, "Communications_infraicons");
+.si.si-calendar_::before {
+  content: map-get($bootstrap-icons-map, "calendar_");
 }
-.si.si-Data_analysis_statusicons::before {
-  content: map-get($bootstrap-icons-map, "Data_analysis_statusicons");
+.si.si-calendar_white_::before {
+  content: map-get($bootstrap-icons-map, "calendar_white_");
 }
-.si.si-Document-Contracticons::before {
-  content: map-get($bootstrap-icons-map, "Document-Contracticons");
+.si.si-caret_arrow_down::before {
+  content: map-get($bootstrap-icons-map, "caret_arrow_down");
 }
-.si.si-Down-righticons::before {
-  content: map-get($bootstrap-icons-map, "Down-righticons");
+.si.si-caret_arrow_left::before {
+  content: map-get($bootstrap-icons-map, "caret_arrow_left");
 }
-.si.si-Downloadicons::before {
-  content: map-get($bootstrap-icons-map, "Downloadicons");
+.si.si-caret_arrow_right::before {
+  content: map-get($bootstrap-icons-map, "caret_arrow_right");
 }
-.si.si-Earthicons::before {
-  content: map-get($bootstrap-icons-map, "Earthicons");
+.si.si-caret_arrow_stroke_down::before {
+  content: map-get($bootstrap-icons-map, "caret_arrow_stroke_down");
 }
-.si.si-Electrical_Power::before {
-  content: map-get($bootstrap-icons-map, "Electrical_Power");
+.si.si-caret_arrow_stroke_left::before {
+  content: map-get($bootstrap-icons-map, "caret_arrow_stroke_left");
 }
-.si.si-Electronic_devices::before {
-  content: map-get($bootstrap-icons-map, "Electronic_devices");
+.si.si-caret_arrow_stroke_right::before {
+  content: map-get($bootstrap-icons-map, "caret_arrow_stroke_right");
 }
-.si.si-Email_white::before {
-  content: map-get($bootstrap-icons-map, "Email_white");
+.si.si-caret_arrow_stroke_up::before {
+  content: map-get($bootstrap-icons-map, "caret_arrow_stroke_up");
 }
-.si.si-Emailicons::before {
-  content: map-get($bootstrap-icons-map, "Emailicons");
+.si.si-caret_arrow_up::before {
+  content: map-get($bootstrap-icons-map, "caret_arrow_up");
 }
-.si.si-Gasicons::before {
-  content: map-get($bootstrap-icons-map, "Gasicons");
+.si.si-check_roudend::before {
+  content: map-get($bootstrap-icons-map, "check_roudend");
 }
-.si.si-Grid_Biogas::before {
-  content: map-get($bootstrap-icons-map, "Grid_Biogas");
+.si.si-check_straight::before {
+  content: map-get($bootstrap-icons-map, "check_straight");
 }
-.si.si-Ground_area::before {
-  content: map-get($bootstrap-icons-map, "Ground_area");
+.si.si-checkmark_::before {
+  content: map-get($bootstrap-icons-map, "checkmark_");
 }
-.si.si-Home_Electricity::before {
-  content: map-get($bootstrap-icons-map, "Home_Electricity");
+.si.si-chevron_arrow_down::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_down");
 }
-.si.si-Hydrogenicons::before {
-  content: map-get($bootstrap-icons-map, "Hydrogenicons");
+.si.si-chevron_arrow_left::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_left");
 }
-.si.si-Infopointicons::before {
-  content: map-get($bootstrap-icons-map, "Infopointicons");
+.si.si-chevron_arrow_right::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_right");
 }
-.si.si-Instagramicons::before {
-  content: map-get($bootstrap-icons-map, "Instagramicons");
+.si.si-chevron_arrow_roudend_up::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_roudend_up");
 }
-.si.si-Inteviewicons::before {
-  content: map-get($bootstrap-icons-map, "Inteviewicons");
+.si.si-chevron_arrow_rounded_down::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_rounded_down");
 }
-.si.si-LED_Bulb::before {
-  content: map-get($bootstrap-icons-map, "LED_Bulb");
+.si.si-chevron_arrow_rounded_left::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_rounded_left");
 }
-.si.si-Lightbulbicons::before {
-  content: map-get($bootstrap-icons-map, "Lightbulbicons");
+.si.si-chevron_arrow_rounded_right::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_rounded_right");
 }
-.si.si-Mailicons::before {
-  content: map-get($bootstrap-icons-map, "Mailicons");
+.si.si-chevron_arrow_sharp_down::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_sharp_down");
 }
-.si.si-Neutral_line::before {
-  content: map-get($bootstrap-icons-map, "Neutral_line");
+.si.si-chevron_arrow_sharp_left::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_sharp_left");
 }
-.si.si-No_X::before {
-  content: map-get($bootstrap-icons-map, "No_X");
+.si.si-chevron_arrow_sharp_right::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_sharp_right");
 }
-.si.si-Nuclear-akwicons::before {
-  content: map-get($bootstrap-icons-map, "Nuclear-akwicons");
+.si.si-chevron_arrow_sharp_up::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_sharp_up");
 }
-.si.si-PV_Panel_Sun::before {
-  content: map-get($bootstrap-icons-map, "PV_Panel_Sun");
+.si.si-chevron_arrow_up::before {
+  content: map-get($bootstrap-icons-map, "chevron_arrow_up");
 }
-.si.si-renewable-energy-seal::before {
-  content: map-get($bootstrap-icons-map, "renewable-energy-seal");
+.si.si-clear_circle_2::before {
+  content: map-get($bootstrap-icons-map, "clear_circle_2");
 }
-.si.si-Renewablesicons::before {
-  content: map-get($bootstrap-icons-map, "Renewablesicons");
+.si.si-clear_circle::before {
+  content: map-get($bootstrap-icons-map, "clear_circle");
 }
-.si.si-Schweizicons::before {
-  content: map-get($bootstrap-icons-map, "Schweizicons");
+.si.si-clear::before {
+  content: map-get($bootstrap-icons-map, "clear");
 }
-.si.si-Screenicons::before {
-  content: map-get($bootstrap-icons-map, "Screenicons");
+.si.si-close_x_::before {
+  content: map-get($bootstrap-icons-map, "close_x_");
 }
-.si.si-Search_white::before {
-  content: map-get($bootstrap-icons-map, "Search_white");
+.si.si-cloud_::before {
+  content: map-get($bootstrap-icons-map, "cloud_");
 }
-.si.si-Search-Nav-whiteicons::before {
-  content: map-get($bootstrap-icons-map, "Search-Nav-whiteicons");
+.si.si-communications_infra_::before {
+  content: map-get($bootstrap-icons-map, "communications_infra_");
 }
-.si.si-Search-Navicons::before {
-  content: map-get($bootstrap-icons-map, "Search-Navicons");
+.si.si-data_analysis_status_::before {
+  content: map-get($bootstrap-icons-map, "data_analysis_status_");
 }
-.si.si-Searchicons::before {
-  content: map-get($bootstrap-icons-map, "Searchicons");
+.si.si-document_contract_::before {
+  content: map-get($bootstrap-icons-map, "document_contract_");
 }
-.si.si-Settingsicons::before {
-  content: map-get($bootstrap-icons-map, "Settingsicons");
+.si.si-down_right_::before {
+  content: map-get($bootstrap-icons-map, "down_right_");
 }
-.si.si-Shareicons::before {
-  content: map-get($bootstrap-icons-map, "Shareicons");
+.si.si-download_::before {
+  content: map-get($bootstrap-icons-map, "download_");
 }
-.si.si-Solar2-icons::before {
-  content: map-get($bootstrap-icons-map, "Solar2-icons");
+.si.si-earth_::before {
+  content: map-get($bootstrap-icons-map, "earth_");
 }
-.si.si-Spainicons::before {
-  content: map-get($bootstrap-icons-map, "Spainicons");
+.si.si-electrical_power_::before {
+  content: map-get($bootstrap-icons-map, "electrical_power_");
 }
-.si.si-Spotifyicons::before {
-  content: map-get($bootstrap-icons-map, "Spotifyicons");
+.si.si-electronic_devices_::before {
+  content: map-get($bootstrap-icons-map, "electronic_devices_");
 }
-.si.si-Staricons::before {
-  content: map-get($bootstrap-icons-map, "Staricons");
+.si.si-email_::before {
+  content: map-get($bootstrap-icons-map, "email_");
 }
-.si.si-Sun_stroke_icons::before {
-  content: map-get($bootstrap-icons-map, "Sun_stroke_icons");
+.si.si-email_white_::before {
+  content: map-get($bootstrap-icons-map, "email_white_");
 }
-.si.si-Targeticons::before {
-  content: map-get($bootstrap-icons-map, "Targeticons");
+.si.si-gas_::before {
+  content: map-get($bootstrap-icons-map, "gas_");
 }
-.si.si-TikTok::before {
-  content: map-get($bootstrap-icons-map, "TikTok");
+.si.si-grid_biogas_::before {
+  content: map-get($bootstrap-icons-map, "grid_biogas_");
 }
-.si.si-Time_stroke::before {
-  content: map-get($bootstrap-icons-map, "Time_stroke");
+.si.si-ground_area_::before {
+  content: map-get($bootstrap-icons-map, "ground_area_");
 }
-.si.si-Timei::before {
-  content: map-get($bootstrap-icons-map, "Timei");
+.si.si-home_electricity_::before {
+  content: map-get($bootstrap-icons-map, "home_electricity_");
 }
-.si.si-Transformator::before {
-  content: map-get($bootstrap-icons-map, "Transformator");
+.si.si-hydrogen_::before {
+  content: map-get($bootstrap-icons-map, "hydrogen_");
 }
-.si.si-Transmissionicons::before {
-  content: map-get($bootstrap-icons-map, "Transmissionicons");
+.si.si-infopoint_::before {
+  content: map-get($bootstrap-icons-map, "infopoint_");
 }
-.si.si-Twittericons::before {
-  content: map-get($bootstrap-icons-map, "Twittericons");
+.si.si-instagram_::before {
+  content: map-get($bootstrap-icons-map, "instagram_");
 }
-.si.si-User_2_whiteicons::before {
-  content: map-get($bootstrap-icons-map, "User_2_whiteicons");
+.si.si-inteview_::before {
+  content: map-get($bootstrap-icons-map, "inteview_");
 }
-.si.si-User_stroke::before {
-  content: map-get($bootstrap-icons-map, "User_stroke");
+.si.si-led_bulb_::before {
+  content: map-get($bootstrap-icons-map, "led_bulb_");
 }
-.si.si-User-Navicons::before {
-  content: map-get($bootstrap-icons-map, "User-Navicons");
+.si.si-lightbulb_::before {
+  content: map-get($bootstrap-icons-map, "lightbulb_");
 }
-.si.si-Usericons::before {
-  content: map-get($bootstrap-icons-map, "Usericons");
+.si.si-long_arrow_down::before {
+  content: map-get($bootstrap-icons-map, "long_arrow_down");
 }
-.si.si-Wifi_communication::before {
-  content: map-get($bootstrap-icons-map, "Wifi_communication");
+.si.si-long_arrow_left::before {
+  content: map-get($bootstrap-icons-map, "long_arrow_left");
 }
-.si.si-Wind_stroke::before {
-  content: map-get($bootstrap-icons-map, "Wind_stroke");
+.si.si-long_arrow_right::before {
+  content: map-get($bootstrap-icons-map, "long_arrow_right");
 }
-.si.si-Wind_Sun::before {
-  content: map-get($bootstrap-icons-map, "Wind_Sun");
+.si.si-long_arrow_up::before {
+  content: map-get($bootstrap-icons-map, "long_arrow_up");
 }
-.si.si-Wind::before {
-  content: map-get($bootstrap-icons-map, "Wind");
+.si.si-mail_::before {
+  content: map-get($bootstrap-icons-map, "mail_");
 }
-.si.si-Yes_checkicons::before {
-  content: map-get($bootstrap-icons-map, "Yes_checkicons");
+.si.si-neutral_line_::before {
+  content: map-get($bootstrap-icons-map, "neutral_line_");
 }
-.si.si-Youtubeicons::before {
-  content: map-get($bootstrap-icons-map, "Youtubeicons");
+.si.si-no_x_::before {
+  content: map-get($bootstrap-icons-map, "no_x_");
+}
+.si.si-nuclear_akw_::before {
+  content: map-get($bootstrap-icons-map, "nuclear_akw_");
+}
+.si.si-pv_panel_sun_::before {
+  content: map-get($bootstrap-icons-map, "pv_panel_sun_");
+}
+.si.si-renewable_energy_seal_::before {
+  content: map-get($bootstrap-icons-map, "renewable_energy_seal_");
+}
+.si.si-renewables_::before {
+  content: map-get($bootstrap-icons-map, "renewables_");
+}
+.si.si-schweiz_::before {
+  content: map-get($bootstrap-icons-map, "schweiz_");
+}
+.si.si-screen_::before {
+  content: map-get($bootstrap-icons-map, "screen_");
+}
+.si.si-search_::before {
+  content: map-get($bootstrap-icons-map, "search_");
+}
+.si.si-search_nav_::before {
+  content: map-get($bootstrap-icons-map, "search_nav_");
+}
+.si.si-search_nav_white_::before {
+  content: map-get($bootstrap-icons-map, "search_nav_white_");
+}
+.si.si-search_white_::before {
+  content: map-get($bootstrap-icons-map, "search_white_");
+}
+.si.si-settings_::before {
+  content: map-get($bootstrap-icons-map, "settings_");
+}
+.si.si-share_::before {
+  content: map-get($bootstrap-icons-map, "share_");
+}
+.si.si-solar_2_::before {
+  content: map-get($bootstrap-icons-map, "solar_2_");
+}
+.si.si-spain_::before {
+  content: map-get($bootstrap-icons-map, "spain_");
+}
+.si.si-spotify_::before {
+  content: map-get($bootstrap-icons-map, "spotify_");
+}
+.si.si-star_::before {
+  content: map-get($bootstrap-icons-map, "star_");
+}
+.si.si-sun_stroke__::before {
+  content: map-get($bootstrap-icons-map, "sun_stroke__");
+}
+.si.si-target_::before {
+  content: map-get($bootstrap-icons-map, "target_");
+}
+.si.si-tiktok_::before {
+  content: map-get($bootstrap-icons-map, "tiktok_");
+}
+.si.si-time_::before {
+  content: map-get($bootstrap-icons-map, "time_");
+}
+.si.si-time_stroke__::before {
+  content: map-get($bootstrap-icons-map, "time_stroke__");
+}
+.si.si-transformator_::before {
+  content: map-get($bootstrap-icons-map, "transformator_");
+}
+.si.si-transmission_::before {
+  content: map-get($bootstrap-icons-map, "transmission_");
+}
+.si.si-twitter_::before {
+  content: map-get($bootstrap-icons-map, "twitter_");
+}
+.si.si-user_::before {
+  content: map-get($bootstrap-icons-map, "user_");
+}
+.si.si-user_2_white_::before {
+  content: map-get($bootstrap-icons-map, "user_2_white_");
+}
+.si.si-user_nav_::before {
+  content: map-get($bootstrap-icons-map, "user_nav_");
+}
+.si.si-user_stroke__::before {
+  content: map-get($bootstrap-icons-map, "user_stroke__");
+}
+.si.si-wifi_communication_::before {
+  content: map-get($bootstrap-icons-map, "wifi_communication_");
+}
+.si.si-wind_::before {
+  content: map-get($bootstrap-icons-map, "wind_");
+}
+.si.si-wind_stroke__::before {
+  content: map-get($bootstrap-icons-map, "wind_stroke__");
+}
+.si.si-wind_sun_::before {
+  content: map-get($bootstrap-icons-map, "wind_sun_");
+}
+.si.si-yes_check_::before {
+  content: map-get($bootstrap-icons-map, "yes_check_");
+}
+.si.si-youtube_::before {
+  content: map-get($bootstrap-icons-map, "youtube_");
 }

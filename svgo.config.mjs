@@ -1,4 +1,5 @@
 import path from 'node:path'
+import SVGFixer from 'oslllo-svg-fixer';
 
 export default {
   multipass: true,
@@ -8,6 +9,15 @@ export default {
     eol: 'lf'
   },
   plugins: [
+    {
+      name:"remove-stroke-to-fill",
+      fn(_root, params, info) {
+        const r = SVGFixer(info.path, info.path, { });
+        console.log("🚀 ~ fn ~ info:", info)
+        console.log("🚀 ~ fn ~ r:", r);
+        return null;
+      }
+    },
     {
       name: 'preset-default',
       params: {

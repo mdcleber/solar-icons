@@ -10,10 +10,9 @@
     "docs-test": "npm-run-all docs-build docs-test:vnu",
     "docs-test:vnu": "node build/vnu-jar.mjs",
     "pages": "node build/build-pages.mjs",
-    "icons": "npm-run-all icons-main --aggregate-output --parallel icons-sprite icons-font",
+    "icons": "npm-run-all icons-main --aggregate-output --parallel icons-font",
     "icons-main": "node build/build-svgs.mjs",
     "icons-zip": "cross-env-shell \"rm -rf bootstrap-icons-$npm_package_version bootstrap-icons-$npm_package_version.zip && cp -r icons/ bootstrap-icons-$npm_package_version && cp bootstrap-icons.svg bootstrap-icons-$npm_package_version && cp -r font/ bootstrap-icons-$npm_package_version && zip -qr9 bootstrap-icons-$npm_package_version.zip bootstrap-icons-$npm_package_version && rm -rf bootstrap-icons-$npm_package_version\"",
-    "icons-sprite": "svg-sprite --config svg-sprite.json --log=info \"icons/*.svg\"",
     "icons-font": "npm-run-all icons-font-*",
     "icons-font-main": "fantasticon",
     "icons-font-min": "cleancss -O1 --format breakWith=lf --with-rebase --output font/bootstrap-icons.min.css font/bootstrap-icons.css",
@@ -26,7 +25,7 @@
     "test:lockfile-lint": "lockfile-lint --allowed-hosts npm --allowed-schemes https: --empty-hostname false --type npm --path package-lock.json",
     "test:check-icons": "node build/check-icons.mjs",
     "test": "npm-run-all --parallel --aggregate-output --continue-on-error test:*",
-    "svg-fixer": "node node_modules/oslllo-svg-fixer/src/cli.js"
+    "svg-fixer": "node node_modules/oslllo-svg-fixer/src/cli.js --source ./raw-icons --destination ./icons --show-progress"
   },
   "keywords": [
     "icons",
